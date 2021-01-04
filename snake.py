@@ -1,13 +1,9 @@
+# -*- coding: utf-8 -*-
+
 import turtle
 import random
-import pygame
 import time
 import os
-
-def tocar(file):
-    pygame.mixer.init()
-    pygame.mixer.music.load(file)
-    pygame.mixer.music.play()
 
 altura = 1000
 largura = 1000
